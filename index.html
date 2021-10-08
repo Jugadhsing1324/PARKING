@@ -1,0 +1,45 @@
+<html>
+<head>
+<style>
+body{
+	background-image: url("download.png");
+    background-position: center;
+    background-size: cover;
+	text-align: center;
+}
+#myCanvas
+{
+	border-width:10px;
+	background-color: white; 
+	border-style:ridge;
+}
+
+h1,h4
+{
+	color: rgb(37, 16, 224) !important;
+}
+</style>		
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<title>PARKING</title>
+</head>
+<body onload="add()">
+
+<h1>CAR PARKING</h1>
+<canvas id="myCanvas" width="800" height="600">
+</canvas>
+<h4>
+	<b class="text-danger">NOTE : </b> IF CAR IS NOT VISIBLE PRESS ANY ARROW KEY
+	<br>
+	<b class="text-danger">NOTE : </b> IF THE BACKGROUND IMAGE IS NOT VISIBLE,REFRESH IT ONE TIME ONLY
+	<br>
+	<b class="text-success">NOTE : </b> TO VEIW VIDEO,SCROLL DOWN,DO A RIGHT CLICK AND CLICK 'SHOW ALL CONTROLS'
+</h4>
+
+<video src="VID-20211008-WA0091.mp4" ></video>
+
+<script src="main.js">
+</script>
+</body>
+</html>
